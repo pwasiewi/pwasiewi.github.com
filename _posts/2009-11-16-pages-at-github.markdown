@@ -3,7 +3,7 @@ layout: default
 title: Pages at GitHub
 ---
 
-Na temat git [wolnodostêpna ksi±¿ka ProGit book](http://progit.org/book/) oraz filmy [Linus on Git](http://www.youtube.com/watch?v=4XpnKHJAok8) oraz [Git intro](http://video.linuxfoundation.org/video/1516), z tym, ¿e ten ostatni najlepiej w Youtube siê prezentuje i trzeba siê pogodziæ z za bardzo skompresowanym d¼wiêkiem.
+Na temat git [spo³eczna ksi±¿ka](http://book.git-scm.com/) oraz [wolnodostêpna ksi±¿ka ProGit book](http://progit.org/book/) oraz filmy [Linus on Git](http://www.youtube.com/watch?v=4XpnKHJAok8) oraz [Git intro](http://video.linuxfoundation.org/video/1516), z tym, ¿e ten ostatni najlepiej w Youtube siê prezentuje i trzeba siê pogodziæ z za bardzo skompresowanym d¼wiêkiem.
 
 Strona g³ówna u¿ytkownika GitHub-u znajduje siê w repozytorium username.github.com, gdy¿ najpierw zak³adamy sobie konto, a potem tworzymy w³asne repozytoria np.: takie jak iso lub w³a¶nie np. pwasiewi.github.com
 
