@@ -9,9 +9,9 @@ Strona g³ówna u¿ytkownika GitHub-u znajduje siê w repozytorium username.github.c
 
 Dodatkowo polecam [opis wykonania strony na GitHubie](http://blog.envylabs.com/2009/08/publishing-a-blog-with-github-pages-and-jekyll/) z list± komend ¶ci±gaj±cych stronê www projektu po wykonaniu jej automatycznie przyciskiem na GitHubie:
 
-git clone git://github.com/pwasiewi/iso.git;
+`git clone git://github.com/pwasiewi/iso.git;
 cd iso;
-git symbolic-ref HEAD refs/heads/gh-pages; rm .git/index; git clean -fdx; git pull origin gh-pages
+git symbolic-ref HEAD refs/heads/gh-pages; rm .git/index; git clean -fdx; git pull origin gh-pages`
 
 Po tych komendach mo¿na git checkout master lub git checkout gh-pages prze³±czaæ siê miêdzy repozytoriami skryptów i strony projektu.
 
