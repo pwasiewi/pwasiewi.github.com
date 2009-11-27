@@ -1,11 +1,19 @@
 ---
 layout: default
-title: Pomoce do wyk³adów i æwiczeñ Piotra W±siewicza
+title: Pomoce do wykÅ‚adÃ³w i Ä‡wiczeÅ„ Piotra WÄ…siewicza
 ---
 
-{% for post in site.posts limit:5 %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {{ post.content }}
-  <em>Posted on  {{ post.date | date_to_long_string }}.</em>
-{% endfor %}
+{% include top_menu.html %}
 
+<div id="home">
+  <p>
+    <br/>
+    <!--h1>Blog Posts</h1-->
+    <ul class="posts">
+      {% for post in site.posts limit:5 %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      <li><a href="/archives/">archives...</a></li>
+    </ul>
+  </p>
+</div>
