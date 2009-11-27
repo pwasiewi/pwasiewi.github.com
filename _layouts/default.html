@@ -1,13 +1,45 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-  </head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-  <body>
-    <h1>{{ page.title }}</h1>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-    {{ content }}
-  </body>
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Piotr W±siewicz" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+</head>
+
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Piotr W±siewicz</a>
+    <a class="extra" href="/">home</a>
+    <div class="widget-search widget">
+      <h3 class="widget-header">Search</h3>
+      <div class="widget-content">
+        <form action="http://www.google.com/cse" id="cse-search-box">
+          <div>
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="text" name="q" size="31" />
+            <input type="submit" name="sa" value="Search" />
+          </div>
+        </form>
+        <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
+      </div>
+    </div>
+  </div>
+  
+  {{ content }}
+  
+  {% include footer.html %}
+
+</div>
+
+{% include scripts.html %}
+
+</body>
 </html>
-
