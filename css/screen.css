@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-color: cyan;
+  background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -35,7 +35,7 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #b66;
 }
 
 a:hover {
@@ -43,7 +43,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: #b67;
 }
 
 table {
@@ -67,7 +67,7 @@ ul.posts {
   }
 
   ul.posts span {
-    color: #aaa;
+    color: #b79;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
