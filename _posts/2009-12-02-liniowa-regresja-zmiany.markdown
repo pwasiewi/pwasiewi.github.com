@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Liniowa regresja: zmiany w strukturze skryptów
+title: Liniowa regresja - zmiany w skryptach
 ---
 
 Zmieni³a siê struktura skryptów z [GitHub-u](http://github.com/pwasiewi) uzyskiwanych komend±:
@@ -10,15 +10,19 @@ Zmieni³a siê struktura skryptów z [GitHub-u](http://github.com/pwasiewi) uzyskiw
 Tworzy ta komenda katalog iso, a w nim nowe skrypty umieszcza. Plik *isowitdatasets.r* jest tym razem headerem zawieraj±cym definicje zbiorów danych i ich domy¶lne przetwarzanie np. dyskretyzacja, zescorowanie i specyficzne zbiory nazw atrybutów do dalszego stosowania. Po zmodyfikowaniu na pocz±tku ka¿dego z plików: *isowitoptimlm.r*, *isowitalterlm.r*, *isowitoptimklas.r*, *isowitreglog.r* ¶cie¿ki do skryptu z koñcówk± "..../iso" zwanej dalej <¶cie¿ka do pliku>, uruchamiamy R i wpisujemy:
 
 `source("<¶cie¿ka do pliku>/isowitoptimlm.r")` 
-* Skrypt przetwarzaj±c permutacje zmiennych obja¶niaj±cych (dla n od 1 do liczby wszystkich atrybutów wej¶ciowych) wybiera najlepsz± regresjê liniow± wed³ug parametru r-square R2 dopuszczaj±c regresje z wariancj± równomiernie roz³o¿on± st±d testy levena i bptest na heterowariancjê.
+
+* Skrypt przetwarzaj±c permutacje zmiennych obja¶niaj±cych (dla n od 1 do liczby wszystkich atrybutów wej¶ciowych) wybiera najlepsz± regresjê liniow± wed³ug parametru r-square R2 dopuszczaj±c regresje z wariancj± równomiernie roz³o¿on± st±d testy levena i bptest na heterowariancjê
 
 `source("<¶cie¿ka do pliku>/isowitalterlm.r")`
+
 * Skrypt porównuje alternatywne formy uzyskiwania najlepszej regresji z redukcj± atrybutów lub i bez niej na podstawie kryteriów AIC i BIC oraz Ridge
 
 `source("<¶cie¿ka do pliku>/isowitoptimklas.r")`
+
 * Skrypt znajduje stosuj±c permutacje atrybutów o d³ugo¶ci od 1 do liczby wszystkich atrybutów wej¶ciowych najlepszy klasyfikator dla metod rpart, J48, svm, ipredknn, lda, NaiveBayes
 
 `source("<¶cie¿ka do pliku>/isowitreglog.r")`
+
 * Skrypt znajduje regresje logistyczne dla zmiennych jako¶ciowych (factor)
 
 Skrypty te dodatkowo generuj± w podkatalogu *rysunki*, który sam tworzy zrzuty wykresów w jpegach do pó¼niejszego przejrzenia.
