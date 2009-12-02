@@ -23,7 +23,7 @@ Tworzy ta komenda katalog iso, a w nim nowe skrypty umieszcza. Plik *isowitdatas
 
 `source("<¶cie¿ka do pliku>/isowitreglog.r")`
 
-* Skrypt znajduje regresje logistyczne dla zmiennych jako¶ciowych (factor)
+* Skrypt oblicza regresje logistyczne dla zmiennych jako¶ciowych (factor)
 
 Skrypty te dodatkowo generuj± w podkatalogu *rysunki*, który sam tworzy zrzuty wykresów w jpegach do pó¼niejszego przejrzenia.
 
