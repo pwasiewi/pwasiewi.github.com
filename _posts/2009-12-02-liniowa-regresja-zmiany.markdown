@@ -11,19 +11,19 @@ Tworzy ta komenda katalog iso, a w nim nowe skrypty umieszcza. Plik *isowitdatas
 
 `source("<¶cie¿ka do pliku>/isowitoptimlm.r")` 
 
-* Skrypt przetwarzaj±c permutacje zmiennych obja¶niaj±cych (dla n od 1 do liczby wszystkich atrybutów wej¶ciowych) wybiera najlepsz± regresjê liniow± wed³ug parametru r-square R2 dopuszczaj±c regresje z wariancj± równomiernie roz³o¿on± st±d testy levena i bptest na heterowariancjê
+* Skrypt *isowitoptimlm.r* przetwarzaj±c permutacje zmiennych obja¶niaj±cych (dla n od 1 do liczby wszystkich atrybutów wej¶ciowych) wybiera najlepsz± regresjê liniow± wed³ug parametru r-square R2 dopuszczaj±c regresje z wariancj± równomiernie roz³o¿on± st±d testy levena i bptest na heterowariancjê
 
 `source("<¶cie¿ka do pliku>/isowitalterlm.r")`
 
-* Skrypt porównuje alternatywne formy uzyskiwania najlepszej regresji z redukcj± atrybutów lub i bez niej na podstawie kryteriów AIC i BIC oraz Ridge
+* Skrypt *isowitalterlm.r* porównuje alternatywne formy uzyskiwania najlepszej regresji z redukcj± atrybutów lub i bez niej na podstawie kryteriów AIC i BIC oraz Ridge
 
 `source("<¶cie¿ka do pliku>/isowitoptimklas.r")`
 
-* Skrypt znajduje stosuj±c permutacje atrybutów o d³ugo¶ci od 1 do liczby wszystkich atrybutów wej¶ciowych najlepszy klasyfikator dla metod rpart, J48, svm, ipredknn, lda, NaiveBayes
+* Skrypt *isowitoptimklas.r* znajduje stosuj±c permutacje atrybutów o d³ugo¶ci od 1 do liczby wszystkich atrybutów wej¶ciowych najlepszy klasyfikator dla metod rpart, J48, svm, ipredknn, lda, NaiveBayes
 
 `source("<¶cie¿ka do pliku>/isowitreglog.r")`
 
-* Skrypt oblicza regresje logistyczne dla zmiennych jako¶ciowych (factor)
+* Skrypt *isowitreglog.r* oblicza regresje logistyczne dla zmiennych jako¶ciowych (factor)
 
 Skrypty te dodatkowo generuj± w podkatalogu *rysunki*, który sam tworzy zrzuty wykresów w jpegach do pó¼niejszego przejrzenia.
 
