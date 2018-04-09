@@ -3,31 +3,31 @@ layout: default
 title: Liniowa regresja - zmiany w skryptach
 ---
 
-Zmieni³a siê struktura skryptów z [GitHub-u](http://github.com/pwasiewi) uzyskiwanych komend±:
+ZmieniÅ‚a siÄ™ struktura skryptÃ³w z [GitHub-u](http://github.com/pwasiewi) uzyskiwanych komendÄ…:
 
 `git clone git://github.com/pwasiewi/iso.git`
 
-Tworzy ta komenda katalog iso, a w nim nowe skrypty umieszcza. Plik *isowitdatasets.r* jest tym razem headerem zawieraj±cym definicje zbiorów danych i ich domy¶lne przetwarzanie np. dyskretyzacja, zescorowanie i specyficzne zbiory nazw atrybutów do dalszego stosowania. Po zmodyfikowaniu na pocz±tku ka¿dego z plików: *isowitoptimlm.r*, *isowitalterlm.r*, *isowitoptimklas.r*, *isowitreglog.r* ¶cie¿ki do skryptu z koñcówk± "..../iso" zwanej dalej <¶cie¿ka do pliku>, uruchamiamy R i wpisujemy:
+Tworzy ta komenda katalog iso, a w nim nowe skrypty umieszcza. Plik *isowitdatasets.r* jest tym razem headerem zawierajÄ…cym definicje zbiorÃ³w danych i ich domyÅ›lne przetwarzanie np. dyskretyzacja, zescorowanie i specyficzne zbiory nazw atrybutÃ³w do dalszego stosowania. Po zmodyfikowaniu na poczÄ…tku kaÅ¼dego z plikÃ³w: *isowitoptimlm.r*, *isowitalterlm.r*, *isowitoptimklas.r*, *isowitreglog.r* Å›cieÅ¼ki do skryptu z koÅ„cÃ³wkÄ… "..../iso" zwanej dalej <Å›cieÅ¼ka do pliku>, uruchamiamy R i wpisujemy:
 
-`source("<¶cie¿ka do pliku>/isowitoptimlm.r")` 
+`source("<Å›cieÅ¼ka do pliku>/isowitoptimlm.r")` 
 
-* Skrypt *isowitoptimlm.r* przetwarzaj±c permutacje zmiennych obja¶niaj±cych (dla n od 1 do liczby wszystkich atrybutów wej¶ciowych) wybiera najlepsz± regresjê liniow± wed³ug parametru r-square R2 dopuszczaj±c regresje z wariancj± równomiernie roz³o¿on± st±d testy levena i bptest na heterowariancjê
+* Skrypt *isowitoptimlm.r* przetwarzajÄ…c permutacje zmiennych objaÅ›niajÄ…cych (dla n od 1 do liczby wszystkich atrybutÃ³w wejÅ›ciowych) wybiera najlepszÄ… regresjÄ™ liniowÄ… wedÅ‚ug parametru r-square R2 dopuszczajÄ…c regresje z wariancjÄ… rÃ³wnomiernie rozÅ‚oÅ¼onÄ… stÄ…d testy levena i bptest na heterowariancjÄ™
 
-`source("<¶cie¿ka do pliku>/isowitalterlm.r")`
+`source("<Å›cieÅ¼ka do pliku>/isowitalterlm.r")`
 
-* Skrypt *isowitalterlm.r* porównuje alternatywne formy uzyskiwania najlepszej regresji z redukcj± atrybutów lub i bez niej na podstawie kryteriów AIC i BIC oraz Ridge
+* Skrypt *isowitalterlm.r* porÃ³wnuje alternatywne formy uzyskiwania najlepszej regresji z redukcjÄ… atrybutÃ³w lub i bez niej na podstawie kryteriÃ³w AIC i BIC oraz Ridge
 
-`source("<¶cie¿ka do pliku>/isowitoptimklas.r")`
+`source("<Å›cieÅ¼ka do pliku>/isowitoptimklas.r")`
 
-* Skrypt *isowitoptimklas.r* znajduje stosuj±c permutacje atrybutów o d³ugo¶ci od 1 do liczby wszystkich atrybutów wej¶ciowych najlepszy klasyfikator dla metod rpart, J48, svm, ipredknn, lda, NaiveBayes
+* Skrypt *isowitoptimklas.r* znajduje stosujÄ…c permutacje atrybutÃ³w o dÅ‚ugoÅ›ci od 1 do liczby wszystkich atrybutÃ³w wejÅ›ciowych najlepszy klasyfikator dla metod rpart, J48, svm, ipredknn, lda, NaiveBayes
 
-`source("<¶cie¿ka do pliku>/isowitreglog.r")`
+`source("<Å›cieÅ¼ka do pliku>/isowitreglog.r")`
 
-* Skrypt *isowitreglog.r* oblicza regresje logistyczne dla zmiennych jako¶ciowych (factor)
+* Skrypt *isowitreglog.r* oblicza regresje logistyczne dla zmiennych jakoÅ›ciowych (factor)
 
-Skrypty te dodatkowo generuj± w podkatalogu *rysunki*, który sam tworzy zrzuty wykresów w jpegach do pó¼niejszego przejrzenia.
+Skrypty te dodatkowo generujÄ… w podkatalogu *rysunki*, ktÃ³ry sam tworzy zrzuty wykresÃ³w w jpegach do pÃ³Åºniejszego przejrzenia.
 
 Z poprzedniego postu:
 
-* Dla ciekawych, gdzie prowadzi [**"bia³y królik"**](http://marcinbielak.blogspot.com/2009/05/r-jezyk-statystyczny-do-wizualizacji.html), polecam [diceTV film o R](http://www.youtube.com/watch?v=ZwYQPtU2Pa0), [*R journal*](http://journal.r-project.org/current.html), [filmkurs z Kanady](http://www.youtube.com/user/wildsc0p) oraz osza³amiaj±c± [bazê wykresów](http://addictedtor.free.fr/graphiques/), zamieszczam [spis funkcji zwi±zanych z regresj±](http://cran.r-project.org/doc/contrib/Ricci-refcard-regression.pdf) oraz [zbiór stron zwi±zanych z zagadnieniami zaimplementowanymi w R](http://cran.r-project.org/web/views/), w tym strona o [ekonometrii](http://cran.r-project.org/web/views/Econometrics.html), gdzie mo¿na poczytaæ o pakietach liniowej regresji.
+* Dla ciekawych, gdzie prowadzi [**"biaÅ‚y krÃ³lik"**](http://marcinbielak.blogspot.com/2009/05/r-jezyk-statystyczny-do-wizualizacji.html), polecam [diceTV film o R](http://www.youtube.com/watch?v=ZwYQPtU2Pa0), [*R journal*](http://journal.r-project.org/current.html), [filmkurs z Kanady](http://www.youtube.com/user/wildsc0p) oraz oszaÅ‚amiajÄ…cÄ… [bazÄ™ wykresÃ³w](http://addictedtor.free.fr/graphiques/), zamieszczam [spis funkcji zwiÄ…zanych z regresjÄ…](http://cran.r-project.org/doc/contrib/Ricci-refcard-regression.pdf) oraz [zbiÃ³r stron zwiÄ…zanych z zagadnieniami zaimplementowanymi w R](http://cran.r-project.org/web/views/), w tym strona o [ekonometrii](http://cran.r-project.org/web/views/Econometrics.html), gdzie moÅ¼na poczytaÄ‡ o pakietach liniowej regresji.
 

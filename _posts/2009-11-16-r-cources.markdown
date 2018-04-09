@@ -3,5 +3,5 @@ layout: default
 title: R kursy i pomoce
 ---
 
-Dodatkowe kursy jêzyka R na [stronie R cources](http://www.splusbook.com/Rintro/RCourseMaterial.html) oraz wstêp po polsku [w publikacji Komsty](http://cran.r-project.org/doc/contrib/Komsta-Wprowadzenie.pdf).
+Dodatkowe kursy jÄ™zyka R na [stronie R cources](http://www.splusbook.com/Rintro/RCourseMaterial.html) oraz wstÄ™p po polsku [w publikacji Komsty](http://cran.r-project.org/doc/contrib/Komsta-Wprowadzenie.pdf).
 

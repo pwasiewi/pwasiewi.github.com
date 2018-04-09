@@ -3,16 +3,16 @@ layout: default
 title: Liniowa regresja i nie tylko
 ---
 
-Polecam ¶ci±ganie skryptów z [GitHub-u](http://github.com/pwasiewi) komend±:
+Polecam Å›ciÄ…ganie skryptÃ³w z [GitHub-u](http://github.com/pwasiewi) komendÄ…:
 
 `git clone git://github.com/pwasiewi/iso.git`
 
-Tworzy ta komenda katalog iso, a w nim skrypty umieszcza. Po wpisaniu na pocz±tku *isowitdatasets.r* ¶cie¿ki do skryptu z koñcówk± ".../iso", uruchamiamy R i wpisujemy:
+Tworzy ta komenda katalog iso, a w nim skrypty umieszcza. Po wpisaniu na poczÄ…tku *isowitdatasets.r* Å›cieÅ¼ki do skryptu z koÅ„cÃ³wkÄ… ".../iso", uruchamiamy R i wpisujemy:
 
-`source("<¶cie¿ka do pliku>/isowitdatasets.r")`
+`source("<Å›cieÅ¼ka do pliku>/isowitdatasets.r")`
 
-Skrypt ten generuje w podkatalogu, który sam tworzy zrzuty wykresów w jpegach do pó¼niejszego przejrzenia.
+Skrypt ten generuje w podkatalogu, ktÃ³ry sam tworzy zrzuty wykresÃ³w w jpegach do pÃ³Åºniejszego przejrzenia.
 
 
-Dla ciekawych, gdzie prowadzi [**"bia³y królik"**](http://marcinbielak.blogspot.com/2009/05/r-jezyk-statystyczny-do-wizualizacji.html), polecam [diceTV film o R](http://www.youtube.com/watch?v=ZwYQPtU2Pa0), [*R journal*](http://journal.r-project.org/current.html), [filmkurs z Kanady](http://www.youtube.com/user/wildsc0p) oraz osza³amiaj±c± [bazê wykresów](http://addictedtor.free.fr/graphiques/), zamieszczam [spis funkcji zwi±zanych z regresj±](http://cran.r-project.org/doc/contrib/Ricci-refcard-regression.pdf) oraz [zbiór stron zwi±zanych z zagadnieniami zaimplementowanymi w R](http://cran.r-project.org/web/views/), w tym strona o [ekonometrii](http://cran.r-project.org/web/views/Econometrics.html), gdzie mo¿na poczytaæ o pakietach liniowej regresji. 
+Dla ciekawych, gdzie prowadzi [**"biaÅ‚y krÃ³lik"**](http://marcinbielak.blogspot.com/2009/05/r-jezyk-statystyczny-do-wizualizacji.html), polecam [diceTV film o R](http://www.youtube.com/watch?v=ZwYQPtU2Pa0), [*R journal*](http://journal.r-project.org/current.html), [filmkurs z Kanady](http://www.youtube.com/user/wildsc0p) oraz oszaÅ‚amiajÄ…cÄ… [bazÄ™ wykresÃ³w](http://addictedtor.free.fr/graphiques/), zamieszczam [spis funkcji zwiÄ…zanych z regresjÄ…](http://cran.r-project.org/doc/contrib/Ricci-refcard-regression.pdf) oraz [zbiÃ³r stron zwiÄ…zanych z zagadnieniami zaimplementowanymi w R](http://cran.r-project.org/web/views/), w tym strona o [ekonometrii](http://cran.r-project.org/web/views/Econometrics.html), gdzie moÅ¼na poczytaÄ‡ o pakietach liniowej regresji. 
 
