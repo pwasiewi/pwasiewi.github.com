@@ -7,4 +7,4 @@ categories: jekyll update
 
 This is my birthsday and new era of my blogging.
 
-[Piotr Wąsiewicz]: https://github.com/pwasiewi
+[A lot of computer science links for beginning](https://github.com/pwasiewi/eulinks)
