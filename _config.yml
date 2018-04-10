@@ -1,0 +1,12 @@
+# Setup
+name:         Piotr Wąsiewicz
+tagline:      Sieci, bazy, ai, R
+baseurl:      ""
+locale:       "pl"
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
